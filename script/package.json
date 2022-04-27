@@ -1,0 +1,22 @@
+{
+  "name": "script",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "@truffle/hdwallet-provider": "^2.0.3",
+    "axios": "^0.26.1",
+    "bignumber.js": "^9.0.2",
+    "commander": "^9.1.0",
+    "ts-node": "^10.7.0",
+    "typescript": "^4.6.3",
+    "web3": "^1.7.3"
+  },
+  "scripts": {
+    "testOwner": "ts-node ./Contract-test2.ts -F NFTLocker.json -K 0x796538d3486C744c3b73dA62b46330AC982324E2 -P 1bec593fbf4475ea62cd1ddf17ebf46dade1aff749b38b487f42a054cc916848 && ts-node ./Contract-test2.ts -h",
+    "testmain": "ts-node ./Contract-test.ts && ts-node ./Contract-test.ts -h"
+  },
+  "devDependencies": {
+    "@types/node": "^17.0.23"
+  }
+}

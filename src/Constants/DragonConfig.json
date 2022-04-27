@@ -1,0 +1,740 @@
+{
+  "1": [
+    {
+      "boxType": 1,
+      "artifactType": 3,
+      "itemId": 2005,
+      "percent": 2000
+    },
+    {
+      "boxType": 1,
+      "artifactType": 3,
+      "itemId": 2006,
+      "percent": 2000
+    },
+    {
+      "boxType": 1,
+      "artifactType": 3,
+      "itemId": 2004,
+      "percent": 6000
+    },
+    {
+      "boxType": 1,
+      "artifactType": 3,
+      "itemId": 2010,
+      "percent": 6000
+    },
+    {
+      "boxType": 1,
+      "artifactType": 3,
+      "itemId": 2003,
+      "percent": 6000
+    },
+    {
+      "boxType": 1,
+      "artifactType": 3,
+      "itemId": 2009,
+      "percent": 6000
+    },
+    {
+      "boxType": 1,
+      "artifactType": 3,
+      "itemId": 2001,
+      "percent": 6000
+    },
+    {
+      "boxType": 1,
+      "artifactType": 3,
+      "itemId": 2002,
+      "percent": 6000
+    },
+    {
+      "boxType": 1,
+      "artifactType": 3,
+      "itemId": 2013,
+      "percent": 6000
+    },
+    {
+      "boxType": 1,
+      "artifactType": 5,
+      "itemId": 1012,
+      "percent": 1900
+    },
+    {
+      "boxType": 1,
+      "artifactType": 5,
+      "itemId": 1019,
+      "percent": 1900
+    },
+    {
+      "boxType": 1,
+      "artifactType": 5,
+      "itemId": 1026,
+      "percent": 1900
+    },
+    {
+      "boxType": 1,
+      "artifactType": 5,
+      "itemId": 1032,
+      "percent": 1900
+    },
+    {
+      "boxType": 1,
+      "artifactType": 5,
+      "itemId": 1035,
+      "percent": 1900
+    },
+    {
+      "boxType": 1,
+      "artifactType": 5,
+      "itemId": 1039,
+      "percent": 1900
+    },
+    {
+      "boxType": 1,
+      "artifactType": 5,
+      "itemId": 1041,
+      "percent": 1900
+    },
+    {
+      "boxType": 1,
+      "artifactType": 5,
+      "itemId": 1017,
+      "percent": 1900
+    },
+    {
+      "boxType": 1,
+      "artifactType": 5,
+      "itemId": 1022,
+      "percent": 1900
+    },
+    {
+      "boxType": 1,
+      "artifactType": 5,
+      "itemId": 1027,
+      "percent": 1900
+    },
+    {
+      "boxType": 1,
+      "artifactType": 5,
+      "itemId": 1031,
+      "percent": 1900
+    },
+    {
+      "boxType": 1,
+      "artifactType": 5,
+      "itemId": 1033,
+      "percent": 1900
+    },
+    {
+      "boxType": 1,
+      "artifactType": 5,
+      "itemId": 1038,
+      "percent": 1900
+    },
+    {
+      "boxType": 1,
+      "artifactType": 5,
+      "itemId": 1046,
+      "percent": 1900
+    },
+    {
+      "boxType": 1,
+      "artifactType": 5,
+      "itemId": 1008,
+      "percent": 1900
+    },
+    {
+      "boxType": 1,
+      "artifactType": 5,
+      "itemId": 1018,
+      "percent": 1900
+    },
+    {
+      "boxType": 1,
+      "artifactType": 5,
+      "itemId": 1024,
+      "percent": 1900
+    },
+    {
+      "boxType": 1,
+      "artifactType": 5,
+      "itemId": 1030,
+      "percent": 1900
+    },
+    {
+      "boxType": 1,
+      "artifactType": 5,
+      "itemId": 1036,
+      "percent": 1900
+    },
+    {
+      "boxType": 1,
+      "artifactType": 5,
+      "itemId": 1037,
+      "percent": 1900
+    },
+    {
+      "boxType": 1,
+      "artifactType": 5,
+      "itemId": 1043,
+      "percent": 1900
+    },
+    {
+      "boxType": 1,
+      "artifactType": 5,
+      "itemId": 1045,
+      "percent": 1900
+    },
+    {
+      "boxType": 1,
+      "artifactType": 5,
+      "itemId": 1015,
+      "percent": 1900
+    },
+    {
+      "boxType": 1,
+      "artifactType": 5,
+      "itemId": 1020,
+      "percent": 1900
+    },
+    {
+      "boxType": 1,
+      "artifactType": 5,
+      "itemId": 1021,
+      "percent": 1900
+    },
+    {
+      "boxType": 1,
+      "artifactType": 5,
+      "itemId": 1028,
+      "percent": 1900
+    },
+    {
+      "boxType": 1,
+      "artifactType": 5,
+      "itemId": 1034,
+      "percent": 1900
+    },
+    {
+      "boxType": 1,
+      "artifactType": 5,
+      "itemId": 1040,
+      "percent": 1900
+    },
+    {
+      "boxType": 1,
+      "artifactType": 5,
+      "itemId": 1042,
+      "percent": 1900
+    },
+    {
+      "boxType": 1,
+      "artifactType": 5,
+      "itemId": 1011,
+      "percent": 100
+    },
+    {
+      "boxType": 1,
+      "artifactType": 5,
+      "itemId": 1023,
+      "percent": 100
+    },
+    {
+      "boxType": 1,
+      "artifactType": 5,
+      "itemId": 1055,
+      "percent": 100
+    },
+    {
+      "boxType": 1,
+      "artifactType": 5,
+      "itemId": 1058,
+      "percent": 100
+    },
+    {
+      "boxType": 1,
+      "artifactType": 5,
+      "itemId": 1016,
+      "percent": 100
+    },
+    {
+      "boxType": 1,
+      "artifactType": 5,
+      "itemId": 1025,
+      "percent": 100
+    },
+    {
+      "boxType": 1,
+      "artifactType": 5,
+      "itemId": 1029,
+      "percent": 100
+    },
+    {
+      "boxType": 1,
+      "artifactType": 5,
+      "itemId": 1057,
+      "percent": 100
+    }
+  ],
+  "2": [
+    {
+      "boxType": 2,
+      "artifactType": 5,
+      "itemId": 1012,
+      "percent": 8000
+    },
+    {
+      "boxType": 2,
+      "artifactType": 5,
+      "itemId": 1019,
+      "percent": 8000
+    },
+    {
+      "boxType": 2,
+      "artifactType": 5,
+      "itemId": 1026,
+      "percent": 8000
+    },
+    {
+      "boxType": 2,
+      "artifactType": 5,
+      "itemId": 1032,
+      "percent": 8000
+    },
+    {
+      "boxType": 2,
+      "artifactType": 5,
+      "itemId": 1035,
+      "percent": 8000
+    },
+    {
+      "boxType": 2,
+      "artifactType": 5,
+      "itemId": 1039,
+      "percent": 8000
+    },
+    {
+      "boxType": 2,
+      "artifactType": 5,
+      "itemId": 1041,
+      "percent": 8000
+    },
+    {
+      "boxType": 2,
+      "artifactType": 5,
+      "itemId": 1017,
+      "percent": 8000
+    },
+    {
+      "boxType": 2,
+      "artifactType": 5,
+      "itemId": 1022,
+      "percent": 8000
+    },
+    {
+      "boxType": 2,
+      "artifactType": 5,
+      "itemId": 1027,
+      "percent": 8000
+    },
+    {
+      "boxType": 2,
+      "artifactType": 5,
+      "itemId": 1031,
+      "percent": 8000
+    },
+    {
+      "boxType": 2,
+      "artifactType": 5,
+      "itemId": 1033,
+      "percent": 8000
+    },
+    {
+      "boxType": 2,
+      "artifactType": 5,
+      "itemId": 1038,
+      "percent": 8000
+    },
+    {
+      "boxType": 2,
+      "artifactType": 5,
+      "itemId": 1046,
+      "percent": 8000
+    },
+    {
+      "boxType": 2,
+      "artifactType": 5,
+      "itemId": 1008,
+      "percent": 8000
+    },
+    {
+      "boxType": 2,
+      "artifactType": 5,
+      "itemId": 1018,
+      "percent": 8000
+    },
+    {
+      "boxType": 2,
+      "artifactType": 5,
+      "itemId": 1024,
+      "percent": 8000
+    },
+    {
+      "boxType": 2,
+      "artifactType": 5,
+      "itemId": 1030,
+      "percent": 8000
+    },
+    {
+      "boxType": 2,
+      "artifactType": 5,
+      "itemId": 1036,
+      "percent": 8000
+    },
+    {
+      "boxType": 2,
+      "artifactType": 5,
+      "itemId": 1037,
+      "percent": 8000
+    },
+    {
+      "boxType": 2,
+      "artifactType": 5,
+      "itemId": 1043,
+      "percent": 8000
+    },
+    {
+      "boxType": 2,
+      "artifactType": 5,
+      "itemId": 1045,
+      "percent": 8000
+    },
+    {
+      "boxType": 2,
+      "artifactType": 5,
+      "itemId": 1015,
+      "percent": 8000
+    },
+    {
+      "boxType": 2,
+      "artifactType": 5,
+      "itemId": 1020,
+      "percent": 8000
+    },
+    {
+      "boxType": 2,
+      "artifactType": 5,
+      "itemId": 1021,
+      "percent": 8000
+    },
+    {
+      "boxType": 2,
+      "artifactType": 5,
+      "itemId": 1028,
+      "percent": 8000
+    },
+    {
+      "boxType": 2,
+      "artifactType": 5,
+      "itemId": 1034,
+      "percent": 8000
+    },
+    {
+      "boxType": 2,
+      "artifactType": 5,
+      "itemId": 1040,
+      "percent": 8000
+    },
+    {
+      "boxType": 2,
+      "artifactType": 5,
+      "itemId": 1042,
+      "percent": 8000
+    },
+    {
+      "boxType": 2,
+      "artifactType": 5,
+      "itemId": 1011,
+      "percent": 2000
+    },
+    {
+      "boxType": 2,
+      "artifactType": 5,
+      "itemId": 1023,
+      "percent": 2000
+    },
+    {
+      "boxType": 2,
+      "artifactType": 5,
+      "itemId": 1055,
+      "percent": 2000
+    },
+    {
+      "boxType": 2,
+      "artifactType": 5,
+      "itemId": 1058,
+      "percent": 2000
+    },
+    {
+      "boxType": 2,
+      "artifactType": 5,
+      "itemId": 1016,
+      "percent": 2000
+    },
+    {
+      "boxType": 2,
+      "artifactType": 5,
+      "itemId": 1025,
+      "percent": 2000
+    },
+    {
+      "boxType": 2,
+      "artifactType": 5,
+      "itemId": 1029,
+      "percent": 2000
+    },
+    {
+      "boxType": 2,
+      "artifactType": 5,
+      "itemId": 1057,
+      "percent": 2000
+    }
+  ],
+  "3": [
+    {
+      "boxType": 3,
+      "artifactType": 5,
+      "itemId": 1012,
+      "percent": 7400
+    },
+    {
+      "boxType": 3,
+      "artifactType": 5,
+      "itemId": 1019,
+      "percent": 7400
+    },
+    {
+      "boxType": 3,
+      "artifactType": 5,
+      "itemId": 1026,
+      "percent": 7400
+    },
+    {
+      "boxType": 3,
+      "artifactType": 5,
+      "itemId": 1032,
+      "percent": 7400
+    },
+    {
+      "boxType": 3,
+      "artifactType": 5,
+      "itemId": 1035,
+      "percent": 7400
+    },
+    {
+      "boxType": 3,
+      "artifactType": 5,
+      "itemId": 1039,
+      "percent": 7400
+    },
+    {
+      "boxType": 3,
+      "artifactType": 5,
+      "itemId": 1041,
+      "percent": 7400
+    },
+    {
+      "boxType": 3,
+      "artifactType": 5,
+      "itemId": 1017,
+      "percent": 7400
+    },
+    {
+      "boxType": 3,
+      "artifactType": 5,
+      "itemId": 1022,
+      "percent": 7400
+    },
+    {
+      "boxType": 3,
+      "artifactType": 5,
+      "itemId": 1027,
+      "percent": 7400
+    },
+    {
+      "boxType": 3,
+      "artifactType": 5,
+      "itemId": 1031,
+      "percent": 7400
+    },
+    {
+      "boxType": 3,
+      "artifactType": 5,
+      "itemId": 1033,
+      "percent": 7400
+    },
+    {
+      "boxType": 3,
+      "artifactType": 5,
+      "itemId": 1038,
+      "percent": 7400
+    },
+    {
+      "boxType": 3,
+      "artifactType": 5,
+      "itemId": 1046,
+      "percent": 7400
+    },
+    {
+      "boxType": 3,
+      "artifactType": 5,
+      "itemId": 1008,
+      "percent": 7400
+    },
+    {
+      "boxType": 3,
+      "artifactType": 5,
+      "itemId": 1018,
+      "percent": 7400
+    },
+    {
+      "boxType": 3,
+      "artifactType": 5,
+      "itemId": 1024,
+      "percent": 7400
+    },
+    {
+      "boxType": 3,
+      "artifactType": 5,
+      "itemId": 1030,
+      "percent": 7400
+    },
+    {
+      "boxType": 3,
+      "artifactType": 5,
+      "itemId": 1036,
+      "percent": 7400
+    },
+    {
+      "boxType": 3,
+      "artifactType": 5,
+      "itemId": 1037,
+      "percent": 7400
+    },
+    {
+      "boxType": 3,
+      "artifactType": 5,
+      "itemId": 1043,
+      "percent": 7400
+    },
+    {
+      "boxType": 3,
+      "artifactType": 5,
+      "itemId": 1045,
+      "percent": 7400
+    },
+    {
+      "boxType": 3,
+      "artifactType": 5,
+      "itemId": 1015,
+      "percent": 7400
+    },
+    {
+      "boxType": 3,
+      "artifactType": 5,
+      "itemId": 1020,
+      "percent": 7400
+    },
+    {
+      "boxType": 3,
+      "artifactType": 5,
+      "itemId": 1021,
+      "percent": 7400
+    },
+    {
+      "boxType": 3,
+      "artifactType": 5,
+      "itemId": 1028,
+      "percent": 7400
+    },
+    {
+      "boxType": 3,
+      "artifactType": 5,
+      "itemId": 1034,
+      "percent": 7400
+    },
+    {
+      "boxType": 3,
+      "artifactType": 5,
+      "itemId": 1040,
+      "percent": 7400
+    },
+    {
+      "boxType": 3,
+      "artifactType": 5,
+      "itemId": 1042,
+      "percent": 7400
+    },
+    {
+      "boxType": 3,
+      "artifactType": 5,
+      "itemId": 1011,
+      "percent": 2500
+    },
+    {
+      "boxType": 3,
+      "artifactType": 5,
+      "itemId": 1023,
+      "percent": 2500
+    },
+    {
+      "boxType": 3,
+      "artifactType": 5,
+      "itemId": 1055,
+      "percent": 2500
+    },
+    {
+      "boxType": 3,
+      "artifactType": 5,
+      "itemId": 1058,
+      "percent": 2500
+    },
+    {
+      "boxType": 3,
+      "artifactType": 5,
+      "itemId": 1016,
+      "percent": 2500
+    },
+    {
+      "boxType": 3,
+      "artifactType": 5,
+      "itemId": 1025,
+      "percent": 2500
+    },
+    {
+      "boxType": 3,
+      "artifactType": 5,
+      "itemId": 1029,
+      "percent": 2500
+    },
+    {
+      "boxType": 3,
+      "artifactType": 5,
+      "itemId": 1057,
+      "percent": 2500
+    },
+    {
+      "boxType": 3,
+      "artifactType": 5,
+      "itemId": 1101,
+      "percent": 100
+    },
+    {
+      "boxType": 3,
+      "artifactType": 5,
+      "itemId": 1102,
+      "percent": 100
+    }
+  ]
+}

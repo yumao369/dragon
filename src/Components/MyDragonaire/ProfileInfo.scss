@@ -1,0 +1,12 @@
+.qr-button {
+  border: 1px solid white;
+  background: transparent;
+  color: white;
+
+  transition: all 0.1s ease 0.1s;
+}
+
+.qr-button:hover {
+  border: 1px solid rgb(103, 211, 145);
+  color: rgb(103, 211, 145);
+}

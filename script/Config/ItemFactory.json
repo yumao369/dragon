@@ -1,0 +1,609 @@
+{
+  "contractName": "ItemFactory",
+  "abi": [
+    {
+      "inputs": [],
+      "stateMutability": "nonpayable",
+      "type": "constructor"
+    },
+    {
+      "anonymous": false,
+      "inputs": [
+        {
+          "indexed": false,
+          "internalType": "uint256",
+          "name": "_boxType",
+          "type": "uint256"
+        }
+      ],
+      "name": "AddBoxTypeEvent",
+      "type": "event"
+    },
+    {
+      "anonymous": false,
+      "inputs": [
+        {
+          "indexed": false,
+          "internalType": "uint256",
+          "name": "boxType_",
+          "type": "uint256"
+        },
+        {
+          "indexed": false,
+          "internalType": "uint256",
+          "name": "groupIndex_",
+          "type": "uint256"
+        },
+        {
+          "indexed": false,
+          "internalType": "uint256",
+          "name": "dropRate_",
+          "type": "uint256"
+        }
+      ],
+      "name": "AddGroupToBoxEvent",
+      "type": "event"
+    },
+    {
+      "anonymous": false,
+      "inputs": [
+        {
+          "indexed": false,
+          "internalType": "uint256",
+          "name": "_itemType",
+          "type": "uint256"
+        }
+      ],
+      "name": "AddItemTypeEvent",
+      "type": "event"
+    },
+    {
+      "anonymous": false,
+      "inputs": [
+        {
+          "indexed": false,
+          "internalType": "uint256",
+          "name": "itemType_",
+          "type": "uint256"
+        },
+        {
+          "indexed": false,
+          "internalType": "uint256",
+          "name": "artifactId_",
+          "type": "uint256"
+        },
+        {
+          "indexed": false,
+          "internalType": "uint256",
+          "name": "artifactStart_",
+          "type": "uint256"
+        },
+        {
+          "indexed": false,
+          "internalType": "uint256",
+          "name": "artifactEnd_",
+          "type": "uint256"
+        }
+      ],
+      "name": "AddTypeArtifactEvent",
+      "type": "event"
+    },
+    {
+      "anonymous": false,
+      "inputs": [
+        {
+          "indexed": true,
+          "internalType": "uint256",
+          "name": "boxType",
+          "type": "uint256"
+        },
+        {
+          "indexed": true,
+          "internalType": "uint256",
+          "name": "groupIndex",
+          "type": "uint256"
+        },
+        {
+          "indexed": true,
+          "internalType": "uint256",
+          "name": "itemType",
+          "type": "uint256"
+        },
+        {
+          "indexed": false,
+          "internalType": "uint256",
+          "name": "itemId",
+          "type": "uint256"
+        }
+      ],
+      "name": "ItemAdded",
+      "type": "event"
+    },
+    {
+      "anonymous": false,
+      "inputs": [
+        {
+          "indexed": false,
+          "internalType": "address",
+          "name": "potentialOwner",
+          "type": "address"
+        }
+      ],
+      "name": "OwnerNominated",
+      "type": "event"
+    },
+    {
+      "anonymous": false,
+      "inputs": [
+        {
+          "indexed": true,
+          "internalType": "address",
+          "name": "previousOwner",
+          "type": "address"
+        },
+        {
+          "indexed": true,
+          "internalType": "address",
+          "name": "newOwner",
+          "type": "address"
+        }
+      ],
+      "name": "OwnershipTransferred",
+      "type": "event"
+    },
+    {
+      "inputs": [],
+      "name": "acceptOwnership",
+      "outputs": [],
+      "stateMutability": "nonpayable",
+      "type": "function",
+      "constant": false
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "address",
+          "name": "newOwner",
+          "type": "address"
+        }
+      ],
+      "name": "nominatePotentialOwner",
+      "outputs": [],
+      "stateMutability": "nonpayable",
+      "type": "function",
+      "constant": false
+    },
+    {
+      "inputs": [],
+      "name": "owner",
+      "outputs": [
+        {
+          "internalType": "address",
+          "name": "",
+          "type": "address"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function",
+      "constant": true
+    },
+    {
+      "inputs": [],
+      "name": "potentialOwner",
+      "outputs": [
+        {
+          "internalType": "address",
+          "name": "",
+          "type": "address"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function",
+      "constant": true
+    },
+    {
+      "inputs": [],
+      "name": "renounceOwnership",
+      "outputs": [],
+      "stateMutability": "nonpayable",
+      "type": "function",
+      "constant": false
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "address",
+          "name": "newOwner",
+          "type": "address"
+        }
+      ],
+      "name": "transferOwnership",
+      "outputs": [],
+      "stateMutability": "nonpayable",
+      "type": "function",
+      "constant": false
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "uint256",
+          "name": "boxType_",
+          "type": "uint256"
+        }
+      ],
+      "name": "getBoxItemGroupLength",
+      "outputs": [
+        {
+          "internalType": "uint256",
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function",
+      "constant": true
+    },
+    {
+      "inputs": [],
+      "name": "supportedBoxTypes",
+      "outputs": [
+        {
+          "internalType": "uint256[]",
+          "name": "",
+          "type": "uint256[]"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function",
+      "constant": true
+    },
+    {
+      "inputs": [],
+      "name": "supportedItemTypes",
+      "outputs": [
+        {
+          "internalType": "uint256[]",
+          "name": "",
+          "type": "uint256[]"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function",
+      "constant": true
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "uint256",
+          "name": "boxType_",
+          "type": "uint256"
+        }
+      ],
+      "name": "totalSupply",
+      "outputs": [
+        {
+          "internalType": "uint256",
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function",
+      "constant": true
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "uint256",
+          "name": "boxType_",
+          "type": "uint256"
+        }
+      ],
+      "name": "totalGroupCount",
+      "outputs": [
+        {
+          "internalType": "uint256",
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function",
+      "constant": true
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "uint256",
+          "name": "boxType_",
+          "type": "uint256"
+        },
+        {
+          "internalType": "uint256",
+          "name": "groupIndex_",
+          "type": "uint256"
+        }
+      ],
+      "name": "getGroupItems",
+      "outputs": [
+        {
+          "internalType": "uint256[]",
+          "name": "",
+          "type": "uint256[]"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function",
+      "constant": true
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "uint256",
+          "name": "boxType_",
+          "type": "uint256"
+        },
+        {
+          "internalType": "uint256",
+          "name": "groupIndex_",
+          "type": "uint256"
+        }
+      ],
+      "name": "getGroupDropRate",
+      "outputs": [
+        {
+          "internalType": "uint256",
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function",
+      "constant": true
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "uint256",
+          "name": "itemType_",
+          "type": "uint256"
+        }
+      ],
+      "name": "artifactsLength",
+      "outputs": [
+        {
+          "internalType": "uint256",
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function",
+      "constant": true
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "uint256",
+          "name": "itemType_",
+          "type": "uint256"
+        },
+        {
+          "internalType": "uint256",
+          "name": "index_",
+          "type": "uint256"
+        }
+      ],
+      "name": "artifactIdAt",
+      "outputs": [
+        {
+          "internalType": "uint256",
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function",
+      "constant": true
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "uint256",
+          "name": "randomness_",
+          "type": "uint256"
+        },
+        {
+          "internalType": "uint256",
+          "name": "artifactId_",
+          "type": "uint256"
+        }
+      ],
+      "name": "getRandomArtifactValue",
+      "outputs": [
+        {
+          "internalType": "uint256",
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function",
+      "constant": true
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "uint256",
+          "name": "boxType_",
+          "type": "uint256"
+        }
+      ],
+      "name": "addBoxType",
+      "outputs": [],
+      "stateMutability": "nonpayable",
+      "type": "function",
+      "constant": false
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "uint256",
+          "name": "itemType_",
+          "type": "uint256"
+        }
+      ],
+      "name": "addItemType",
+      "outputs": [],
+      "stateMutability": "nonpayable",
+      "type": "function",
+      "constant": false
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "uint256",
+          "name": "itemType_",
+          "type": "uint256"
+        },
+        {
+          "internalType": "uint256",
+          "name": "artifactId_",
+          "type": "uint256"
+        },
+        {
+          "internalType": "uint256",
+          "name": "artifactStart_",
+          "type": "uint256"
+        },
+        {
+          "internalType": "uint256",
+          "name": "artifactEnd_",
+          "type": "uint256"
+        }
+      ],
+      "name": "addTypeArtifact",
+      "outputs": [],
+      "stateMutability": "nonpayable",
+      "type": "function",
+      "constant": false
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "uint256",
+          "name": "boxType_",
+          "type": "uint256"
+        },
+        {
+          "internalType": "uint256",
+          "name": "groupIndex_",
+          "type": "uint256"
+        },
+        {
+          "internalType": "uint256",
+          "name": "dropRate_",
+          "type": "uint256"
+        }
+      ],
+      "name": "addGroupToBox",
+      "outputs": [],
+      "stateMutability": "nonpayable",
+      "type": "function",
+      "constant": false
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "uint256",
+          "name": "boxType_",
+          "type": "uint256"
+        },
+        {
+          "internalType": "uint256",
+          "name": "groupIndex_",
+          "type": "uint256"
+        },
+        {
+          "internalType": "uint256",
+          "name": "itemType_",
+          "type": "uint256"
+        },
+        {
+          "internalType": "uint256[]",
+          "name": "itemIdArray_",
+          "type": "uint256[]"
+        }
+      ],
+      "name": "addItemsByArray",
+      "outputs": [],
+      "stateMutability": "nonpayable",
+      "type": "function",
+      "constant": false
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "uint256",
+          "name": "boxType_",
+          "type": "uint256"
+        },
+        {
+          "internalType": "uint256",
+          "name": "groupIndex_",
+          "type": "uint256"
+        },
+        {
+          "internalType": "uint256",
+          "name": "itemType_",
+          "type": "uint256"
+        },
+        {
+          "internalType": "uint256",
+          "name": "itemId_",
+          "type": "uint256"
+        }
+      ],
+      "name": "addItem",
+      "outputs": [],
+      "stateMutability": "nonpayable",
+      "type": "function",
+      "constant": false
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "uint256",
+          "name": "randomness_",
+          "type": "uint256"
+        },
+        {
+          "internalType": "uint256",
+          "name": "boxType_",
+          "type": "uint256"
+        }
+      ],
+      "name": "getRandomItem",
+      "outputs": [
+        {
+          "internalType": "uint256",
+          "name": "_itemId",
+          "type": "uint256"
+        },
+        {
+          "internalType": "uint256",
+          "name": "_itemType",
+          "type": "uint256"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function",
+      "constant": true
+    }
+  ],
+  "networks": {
+    "1337": {
+      "address": "0x92528Ff4B993933f283Fc94C074C35384aaCed30"
+    }
+  }
+}

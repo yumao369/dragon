@@ -1,0 +1,16 @@
+
+.required {
+  font-size: 16px;
+  font-weight: bold;
+  color: #bbbbbb;
+  line-height: 1.5;
+}
+
+.required::after {
+  content: "*";
+  color: red;
+  font-size: 16px;
+  font-weight: bold;
+  margin-left: 5px;
+  line-height: 1.5;
+}

@@ -1,0 +1,77 @@
+.WithInitTempBox{
+    background: linear-gradient(#182724, #1F3B2F);
+    .WithInitTempRowOne{
+        height:64px;
+        width:100%;
+    }
+
+    .WithInitTempRowTwo{
+        height:calc( 100vh - 284px );
+       
+        .WithInitTempRowTwoColOne{
+            height:100%;
+            border-right: 1px solid #344340;
+            display: flex;
+            flex-direction: column;
+            align-items: flex-end;
+            .WithInitTempRowTwoColOneBox{
+                display: flex;
+                flex-direction: column;
+                align-items: flex-end;
+                .WithInitTempRowTwoColOneBoxColOne{
+                    height:224px;
+                    width:256px;
+                    .loading{
+                        height:224px;
+                        width:256px;
+                        display: flex;
+                        flex-direction: column;
+                        align-items: center;
+                    
+                        .MuiCircularProgress-root{
+                            position: relative;
+                            top:50%;
+                            transform: translateY(-50%);
+                        }
+                    }
+                }
+                .divider {
+                    border-top: 1px solid #344340;
+                    width: 256px;
+                    height: 1px;
+                    margin: 25px 0;
+                  }
+                .WithInitTempRowTwoColOneBoxColTwo{
+                    height:calc( 100vh - 558px );
+                    .WithInitTempRowTwoColOneBoxColTwoWrapper{
+                        .WithInitTempRowTwoColOneBoxColTwoWrapperScroll{
+                            display: flex;
+                            flex-direction: column;
+                            align-items: flex-end;
+                        }
+                    }
+
+                }
+            }
+        }
+
+        .WithInitTempRowTwoColTwo{
+            height:100%;
+            .WithInitTempRowTwoColTwoBox{
+                .WithInitTempRowTwoBoxColTwoWrapper{
+                    .WithInitTempRowTwoBoxColTwoWrapperScroll{
+    
+                    }
+                }
+            }
+
+        }
+
+
+    }
+
+    .WithInitTempRowThree{
+        height:220px;
+        width:100%;
+    }
+}

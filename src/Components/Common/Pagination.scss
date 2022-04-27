@@ -1,0 +1,22 @@
+.pagination-input {
+  transition: border .2s ease .2s;
+}
+
+.pagination-input:focus {
+  border: 1px solid white !important;
+}
+
+.pagination-button {
+  border: 1px solid #3B4845;
+  transition: all .2s ease .2s;
+  color: #3B4845;
+}
+
+.pagination-button[disabled = false]:hover {
+  border: 1px solid white;
+  color: white;
+}
+
+.pagination-button[disabled] {
+  cursor: not-allowed !important;
+}

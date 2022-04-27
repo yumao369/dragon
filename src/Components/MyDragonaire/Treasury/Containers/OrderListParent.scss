@@ -1,0 +1,12 @@
+.OrderListParentContainer{
+    .OrderListParentContainerRow{
+        .OrderListParentContainerRowCol{
+            width:360px;
+            height:460px;
+            display: flex;                  //一维布局，水平方向/垂直方向
+            flex-direction: column;         //flex-direction 属性指定了内部元素是如何在 flex 容器中布局的，定义了主轴的方向(正方向或反方向)。-- 纵轴
+            align-items: center;            //水平居中
+            justify-content: center;        //垂直居中
+        }
+    }
+}

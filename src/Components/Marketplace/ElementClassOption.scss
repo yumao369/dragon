@@ -1,0 +1,22 @@
+.option {
+  width: 93px;
+  height: 29px;
+  background: #1F3A2B;
+  border: 1px solid #1F3A2B;
+  border-radius: 3px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  cursor: pointer;
+  margin-bottom: 8px;
+  transition: background .2s ease;
+}
+
+.option:hover {
+  background: #4c8c69;
+}
+
+
+.selected {
+  border: 1px solid #386847;
+}

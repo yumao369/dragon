@@ -1,0 +1,90 @@
+{
+  "name": "sanguo-marketplace",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@dropzone-ui/react": "^6.7.1",
+    "@emotion/react": "^11.8.2",
+    "@emotion/styled": "^11.8.1",
+    "@mui/icons-material": "^5.5.1",
+    "@mui/material": "^5.5.3",
+    "@mui/styles": "^5.6.1",
+    "@redux-devtools/extension": "^3.2.2",
+    "@testing-library/jest-dom": "^5.16.2",
+    "@testing-library/react": "^12.1.4",
+    "@testing-library/user-event": "^13.5.0",
+    "@types/crypto-js": "^4.1.1",
+    "@types/jest": "^27.4.1",
+    "@types/js-cookie": "^3.0.2",
+    "@types/node": "^16.11.26",
+    "@types/qrcode.react": "^1.0.2",
+    "@types/ramda": "^0.28.4",
+    "@types/react": "^17.0.41",
+    "@types/react-chartjs-2": "^2.5.7",
+    "@types/react-dom": "^17.0.14",
+    "@types/react-redux": "^7.1.23",
+    "@types/redux-logger": "^3.0.9",
+    "axios": "^0.26.0",
+    "bignumber.js": "^9.0.2",
+    "chart.js": "^3.7.1",
+    "classnames": "^2.3.1",
+    "connected-react-router": "^6.9.2",
+    "crypto-js": "^4.1.1",
+    "history": "^5.3.0",
+    "http-proxy-middleware": "^2.0.4",
+    "js-cookie": "^3.0.1",
+    "node-sass": "^6.0.0",
+    "qrcode.react": "^3.0.1",
+    "ramda": "^0.28.0",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-redux": "^7.2.6",
+    "react-router-dom": "^5.2.0",
+    "react-scripts": "4.0.2",
+    "react-typist": "^2.0.5",
+    "redux-logger": "^3.0.6",
+    "redux-persist": "^6.0.0",
+    "redux-thunk": "^2.4.1",
+    "typescript": "^4.6.3",
+    "web-vitals": "^2.1.4",
+    "web3": "^1.7.0",
+    "worker-timers": "^7.0.46"
+  },
+  "resolutions": {
+    "react-error-overlay": "6.0.9"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "ts-node ./script/before-start.ts && react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ],
+    "rules": {
+      "@typescript-eslint/no-explicit-any": "off"
+    }
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@truffle/hdwallet-provider": "^2.0.6",
+    "@types/react-router-dom": "^5.3.3",
+    "@types/react-typist": "^2.0.3",
+    "commander": "^9.2.0",
+    "ts-node": "^10.7.0"
+  }
+}

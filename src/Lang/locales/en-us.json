@@ -1,0 +1,26 @@
+{
+    "HomeTitle" : "MINT NFT",
+    "MintALLTitle" : "MINT BATCH NFT",
+    "Setting" : "MY NFT",
+    
+    "menu-profile": "My Account",
+    "menu-settings": "Settings",
+    "menu-logout": "Logout",
+
+    "mystery-boxes": "MYSTERY BOXES",
+    "marketplace": "MARKETPLACE",
+
+    "items": "Items",
+    "my-wallet": "My Wallet",
+    "my-currency-exchange": "My Currency Exchange",
+    "swap": "Swap",
+    "account-settings": "Account Settings",
+
+    "show-qrcode": "Show QR",
+
+    "contact": "CONTACT",
+    "privacy-policy": "Privacy policy",
+    "terms-of-use": "Terms of use",
+    "faqs": "FAQs",
+    "copyright": "Copyright@2022 Dragonaire. All Rights Reserved."
+}

@@ -1,0 +1,46 @@
+.OrderListComponent{
+    height:420px;
+    width:303px;
+    .OrderListComponentRow{
+        height:100%;
+        width:303px;
+        border-radius: 3px;
+        
+        .OrderListComponentRowColTitle{
+            height:60px;
+            line-height: 60px;
+            font-size: 18px;
+            padding-left: 10px;
+            font-weight: 700;
+        }
+
+        .OrderListComponentRowCol{
+            background: #31413C;
+            height:360px;
+            width:100%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            .scrollbars{
+                height:92%;
+                width:92%;
+                overflow-y:auto ;
+            }
+        
+            .scrollbars::-webkit-scrollbar {
+                width: 4px;
+            }
+        
+            .scrollbars::-webkit-scrollbar-thumb{
+                border-radius: 2px;
+                background-color: #3E8959;
+            }
+        
+            .scrollbars::-webkit-scrollbar-track{
+                background-color: #1F2322;
+                border-radius: 2px;
+            }
+        }
+    }
+}

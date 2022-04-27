@@ -1,0 +1,27 @@
+{
+    "HomeTitle" : "铸造NFT",
+    "MintALLTitle" : "批量铸造NFT",
+    "Setting" : "我的NFT",
+
+
+    
+    "menu-profile": "我的账户",
+    "menu-settings": "设置",
+    "menu-logout": "登出",
+    "mystery-boxes": "盲盒",
+    "marketplace": "交易市场",
+
+    "items": "我的NFT",
+    "my-wallet": "我的钱包",
+    "my-currency-exchange": "我的交易",
+    "swap": "交易",
+    "account-settings": "账户设置",
+
+    "show-qrcode": "二维码",
+
+    "contact": "联系方式",
+    "privacy-policy": "Privacy policy",
+    "terms-of-use": "Terms of use",
+    "faqs": "FAQs",
+    "copyright": "Copyright@2022 Dragonaire. All Rights Reserved."
+}
